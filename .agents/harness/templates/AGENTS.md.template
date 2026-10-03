@@ -1,0 +1,32 @@
+# Project guide
+
+Replace the examples below with verified project facts and remove unused sections before saving as AGENTS.md.
+
+## Purpose and boundaries
+
+[What this project does; key directories; important architecture decisions.]
+
+## Commands
+
+| Task | Command | Working directory | Verification status |
+| --- | --- | --- | --- |
+| Setup | [from project configuration] | [directory] | [inspected or executed, date] |
+| Development | [actual command] | [directory] | [status] |
+| Targeted tests | [actual command] | [directory] | [status] |
+| Required checks | [actual CI/check commands] | [directory] | [status] |
+
+## Invariants
+
+[Only non-obvious requirements: data semantics, compatibility, generated files, external services.]
+
+## Environment
+
+[Required runtime versions and variable names. Link to setup docs. Never include credentials.]
+
+## Completion
+
+[Observable success criteria and relevant validation for typical work in this project.]
+
+## Workflow
+
+Use the available personal work standard and relevant installed skills automatically. Define an observable success check for substantial changes, implement a focused change, verify it, and iterate from the evidence. Use `work-improvement-loop` for measured optimization when available. Keep this project's instructions and existing authorization in effect; load detailed procedures from skills rather than copying them here.

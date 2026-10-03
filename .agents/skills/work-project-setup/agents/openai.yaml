@@ -1,0 +1,4 @@
+interface:
+  display_name: "Work Project Setup"
+  short_description: "Start projects with the shared work standard"
+  default_prompt: "Use $work-project-setup to start this project with the shared standard, clear success criteria, and the appropriate workflow."

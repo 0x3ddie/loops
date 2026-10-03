@@ -1,0 +1,4 @@
+interface:
+  display_name: "Work Debugging"
+  short_description: "Find the cause and verify the repair"
+  default_prompt: "Use $work-debugging to reproduce this failure, identify its cause, and verify a focused fix."

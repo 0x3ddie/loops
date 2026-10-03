@@ -1,0 +1,4 @@
+interface:
+  display_name: "Frontend Design"
+  short_description: "Create a deliberate visual direction for UI"
+  default_prompt: "Use $frontend-design to build this interface around its audience and existing design constraints."

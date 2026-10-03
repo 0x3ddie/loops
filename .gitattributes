@@ -1,0 +1,5 @@
+# Preserve reviewed source bytes and SHA-256 hashes across operating systems.
+* -text
+*.png binary
+*.jpg binary
+*.zip binary

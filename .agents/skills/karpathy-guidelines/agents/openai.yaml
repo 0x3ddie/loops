@@ -1,0 +1,4 @@
+interface:
+  display_name: "Karpathy Guidelines"
+  short_description: "Make focused, verifiable code changes"
+  default_prompt: "Use $karpathy-guidelines to implement this change with a minimal diff and verify the result."

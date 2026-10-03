@@ -1,0 +1,271 @@
+{
+  "schema_version": 1,
+  "created_date": "2026-09-29",
+  "canonical_standard": "CORE.md",
+  "canonical_skills": "../skills",
+  "update_policy": "Manual review of pinned source changes; no background update",
+  "skills": [
+    {
+      "name": "karpathy-guidelines",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "canonical_at_install_sha256": {
+        "SKILL.md": "eb2de365c7748ad45d69b07c9ce217f207df5944428a5a1d006d0e87e309dbcc",
+        "agents/openai.yaml": "253eda86bba517e90d8a52bba5b213d7faf19260a27726cee63a961a3161d434"
+      },
+      "origin": "upstream-with-recorded-local-metadata-or-edits",
+      "source": {
+        "repository": "multica-ai/andrej-karpathy-skills",
+        "commit": "2c606141936f1eeef17fa3043a72095b4765b9c2",
+        "path": "skills/karpathy-guidelines",
+        "version": null,
+        "license": "MIT declared in upstream SKILL.md; upstream snapshot has no separate LICENSE file",
+        "modifications": [
+          "Narrowed description to substantial implementation/refactoring",
+          "Clarification requests limited to material uncertainty; continue independent work",
+          "Added local agents/openai.yaml"
+        ],
+        "url": "https://github.com/multica-ai/andrej-karpathy-skills",
+        "checked_date": "2026-09-29",
+        "upstream_sha256": {
+          "SKILL.md": "6e22cc54cb02a5e98ae42d06d9d7292db0c1b43894831b32879beb0166b2aea7"
+        }
+      },
+      "canonical_current_sha256": {
+        "SKILL.md": "eb2de365c7748ad45d69b07c9ce217f207df5944428a5a1d006d0e87e309dbcc",
+        "agents/openai.yaml": "253eda86bba517e90d8a52bba5b213d7faf19260a27726cee63a961a3161d434"
+      },
+      "current_reviewed_date": "2026-09-29"
+    },
+    {
+      "name": "humanizer",
+      "files": [
+        "LICENSE",
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/output-contract.md",
+        "references/patterns.md",
+        "scripts/check_writing.py"
+      ],
+      "canonical_at_install_sha256": {
+        "LICENSE": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+        "SKILL.md": "61ede7dcc391d8e53138ed9b9c48fd4c03d9e68fb2a38d3ab40a4525ef2ffb45",
+        "agents/openai.yaml": "9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736"
+      },
+      "origin": "upstream-with-recorded-local-metadata-or-edits",
+      "source": {
+        "repository": "blader/humanizer",
+        "commit": "225a6f39ac85f76ee48dbad772ea4abe4ed6c9d8",
+        "path": ".",
+        "version": "3.1.0",
+        "license": "MIT; preserved LICENSE",
+        "modifications": [
+          "Local entrypoint and writing contract require final prose, factual preservation, and useful formatting only",
+          "Upstream 3.1.0 pattern sections retained in references/patterns.md with attribution and MIT notice",
+          "Added local non-mutating writing checker; it does not assess truth or guarantee prose quality",
+          "Original pinned snapshot and repository packaging remain in staging"
+        ],
+        "url": "https://github.com/blader/humanizer",
+        "checked_date": "2026-09-29",
+        "upstream_sha256": {
+          "SKILL.md": "0612f1dfb1672b0ea9b97e139bf1f06cabe98d8b27424fe8ff01e1fb4cc99cad",
+          "LICENSE": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+          "agents/openai.yaml": "9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736"
+        }
+      },
+      "canonical_current_sha256": {
+        "LICENSE": "4ac4810254ab36d45419141aeb8e69bf50652cfafe5b2dab947d06d44e5cbf96",
+        "SKILL.md": "9fd7e0aff37b80fc72fb8f0835a309c67200f8fffab38290af4e39dd57c8976e",
+        "agents/openai.yaml": "9d87ff83149a04f86a372948b8ee35fa249de20923867bbc2a49304290aad736",
+        "references/output-contract.md": "029c02e30329f0eb73378becbf97143b73c9d69008dccbaca0ba36ce17bde8fe",
+        "references/patterns.md": "53e95f5abe0db773ff5ad645ce3a4dfa0b6204c1f9368f27cf575c71b0cbe890",
+        "scripts/check_writing.py": "318ab5a1d1c18431d8cd703c2d0c3b8b9c30533dcecaa17263ef0da61ddb5d1c"
+      },
+      "current_reviewed_date": "2026-09-29"
+    },
+    {
+      "name": "frontend-design",
+      "files": [
+        "LICENSE.txt",
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "canonical_at_install_sha256": {
+        "LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "SKILL.md": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+        "agents/openai.yaml": "71e10d510d353b7a60c55e466a59bae45e36badf4a13ada8a089211d541784b8"
+      },
+      "origin": "upstream-with-recorded-local-metadata-or-edits",
+      "source": {
+        "repository": "anthropics/skills",
+        "commit": "8a1541c4a3ffa5a20a5a91de0dcf3f0bab1d1ef4",
+        "path": "skills/frontend-design",
+        "version": null,
+        "license": "Apache-2.0; preserved LICENSE.txt",
+        "modifications": [
+          "Added local agents/openai.yaml; upstream instructions unchanged"
+        ],
+        "url": "https://github.com/anthropics/skills",
+        "checked_date": "2026-09-29",
+        "upstream_sha256": {
+          "SKILL.md": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+          "LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594"
+        }
+      },
+      "canonical_current_sha256": {
+        "LICENSE.txt": "0d542e0c8804e39aa7f37eb00da5a762149dc682d7829451287e11b938e94594",
+        "SKILL.md": "d91970639e9f5c37682ac7ab60094d35f1c7c1f38d731bd56396563aee10c1d3",
+        "agents/openai.yaml": "71e10d510d353b7a60c55e466a59bae45e36badf4a13ada8a089211d541784b8"
+      },
+      "current_reviewed_date": "2026-09-29"
+    },
+    {
+      "name": "work-debugging",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "canonical_at_install_sha256": {
+        "SKILL.md": "9e18d4bd83b7c1c055b50cc1ae126f9a2be2900f8ef14f2c472f04d6a5a6f370",
+        "agents/openai.yaml": "4ecef1e5fe23e39b3011607cf51d04e08e5b683a619b95b78727fed383d05984"
+      },
+      "origin": "original-local",
+      "created_date": "2026-09-29",
+      "canonical_current_sha256": {
+        "SKILL.md": "9e18d4bd83b7c1c055b50cc1ae126f9a2be2900f8ef14f2c472f04d6a5a6f370",
+        "agents/openai.yaml": "4ecef1e5fe23e39b3011607cf51d04e08e5b683a619b95b78727fed383d05984"
+      },
+      "current_reviewed_date": "2026-09-29"
+    },
+    {
+      "name": "work-research",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "canonical_at_install_sha256": {
+        "SKILL.md": "5fef05dc7a98113092bfc528a35352b43369ff2179b40501beeeb7fa4ed1db5b",
+        "agents/openai.yaml": "3912c04b1344c2e7631f5bb9c8f18579b2b0eb6654dda75fd89a10cd38ead176"
+      },
+      "origin": "original-local",
+      "created_date": "2026-09-29",
+      "canonical_current_sha256": {
+        "SKILL.md": "5fef05dc7a98113092bfc528a35352b43369ff2179b40501beeeb7fa4ed1db5b",
+        "agents/openai.yaml": "3912c04b1344c2e7631f5bb9c8f18579b2b0eb6654dda75fd89a10cd38ead176"
+      },
+      "current_reviewed_date": "2026-09-29"
+    },
+    {
+      "name": "work-project-setup",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "canonical_at_install_sha256": {
+        "SKILL.md": "1b8e25726ae069894a3c6e1ddd1fd5a2f36ea87a19a6357baf46b8aa318c9b36",
+        "agents/openai.yaml": "1e66e57138a0074ee4b920763349ff97f610d7037fabd674876d2a9c39fe9239"
+      },
+      "origin": "original-local",
+      "created_date": "2026-09-29",
+      "canonical_current_sha256": {
+        "SKILL.md": "4a082406d96fd9ec2028d309ceb5a0d3ed92ed4f6c34e8feb6d34058a6ff84a5",
+        "agents/openai.yaml": "2a5055f6bb927405014bafc25a2452b04cb94e2038a9b7a19fffdd256492b6e0"
+      },
+      "current_reviewed_date": "2026-09-29"
+    },
+    {
+      "name": "work-harness-maintenance",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml"
+      ],
+      "canonical_at_install_sha256": {
+        "SKILL.md": "4088d67676c5e81cc9ba5cac5be35033f182b87d0c6620f54705d1acfe54882b",
+        "agents/openai.yaml": "7a6f1fc57c79fef39cf9a206c03bdb61d11fabecc9944aaae351344eae2e028f"
+      },
+      "origin": "original-local",
+      "created_date": "2026-09-29",
+      "canonical_current_sha256": {
+        "SKILL.md": "54dc754d2c6791f65a1a24001a4506d1cea05c2e8b7aa19d45b05a8bdf7922ff",
+        "agents/openai.yaml": "7a6f1fc57c79fef39cf9a206c03bdb61d11fabecc9944aaae351344eae2e028f"
+      },
+      "current_reviewed_date": "2026-09-29"
+    },
+    {
+      "name": "work-improvement-loop",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "assets/contract.example.json",
+        "references/design.md",
+        "references/evidence.md",
+        "scripts/loop.py"
+      ],
+      "origin": "original-local",
+      "created_date": "2026-09-29",
+      "design_sources": "research/ANTHROPIC-WORKFLOW.md",
+      "canonical_current_sha256": {
+        "SKILL.md": "2bc566a40cb64326a3dda47d28197bc30aeeed204fb547d4300005b32fbe510a",
+        "agents/openai.yaml": "cc510c2fa5771bc82c1186192e3568e3ce56c9759a6f3d5e53cc54273523b347",
+        "assets/contract.example.json": "8366011d376bfd80a7b856868d202ced69f26e31736d1d2daa6f467150d611d7",
+        "references/design.md": "7d0e5afa7d43d0a8fe4e1dd97ea967f243b3e9550ee1febc82a8bb20ccc93c61",
+        "references/evidence.md": "a85d0bb99d6309e5fd7f354ab9f9baeb75f88b4bec48620bddcfc219b9886296",
+        "scripts/loop.py": "2aae45d214805a1351e55216c8e36ed6da033bde94f23188367af5a20c36b2a7"
+      },
+      "current_reviewed_date": "2026-10-03",
+      "canonical_at_install_sha256": {
+        "SKILL.md": "2bc566a40cb64326a3dda47d28197bc30aeeed204fb547d4300005b32fbe510a",
+        "agents/openai.yaml": "cc510c2fa5771bc82c1186192e3568e3ce56c9759a6f3d5e53cc54273523b347",
+        "assets/contract.example.json": "8366011d376bfd80a7b856868d202ced69f26e31736d1d2daa6f467150d611d7",
+        "references/design.md": "7d0e5afa7d43d0a8fe4e1dd97ea967f243b3e9550ee1febc82a8bb20ccc93c61",
+        "references/evidence.md": "b019df4620b6fdb7550a9cf7b20489232e71e7030bbaa521a029d3d9b9042201",
+        "scripts/loop.py": "2aae45d214805a1351e55216c8e36ed6da033bde94f23188367af5a20c36b2a7"
+      }
+    },
+    {
+      "name": "job-outreach",
+      "files": [
+        "SKILL.md",
+        "agents/openai.yaml",
+        "references/source-examples.md"
+      ],
+      "origin": "original-local",
+      "created_date": "2026-10-03",
+      "canonical_at_install_sha256": {
+        "SKILL.md": "992b3b10dda6d6d711e366cf751c34b62d93feec54359adda3d485f9a72357fb",
+        "agents/openai.yaml": "9e09bffb1546b62ebb7ebc01736f44ec4192af8ce79f42a0782492f548b0f953",
+        "references/source-examples.md": "941cc774241dbd611b8e75c654e02402354235851ee7913ace2156e79ce7e933"
+      },
+      "canonical_current_sha256": {
+        "SKILL.md": "992b3b10dda6d6d711e366cf751c34b62d93feec54359adda3d485f9a72357fb",
+        "agents/openai.yaml": "9e09bffb1546b62ebb7ebc01736f44ec4192af8ce79f42a0782492f548b0f953",
+        "references/source-examples.md": "941cc774241dbd611b8e75c654e02402354235851ee7913ace2156e79ce7e933"
+      },
+      "current_reviewed_date": "2026-10-03",
+      "design_sources": [
+        "https://x.com/brandon_galang/status/2106052601041330599",
+        "https://x.com/dabit3/status/2106366568586199353"
+      ],
+      "source_notes": "Original instructions; screenshot transcriptions supplied by user. No source-image redistribution license asserted."
+    }
+  ],
+  "last_local_revision": {
+    "date": "2026-10-03",
+    "summary": "Job outreach skill, screenshot source notes, and portable platform guidance",
+    "source_backup": "backups/sources-job-outreach-20261003T214425463633Z"
+  },
+  "local_revision_history": [
+    {
+      "date": "2026-09-29",
+      "summary": "Measured improvement loop, evidence record helper, and plain-prose writing contract/checker",
+      "source_backup": "backups/sources-20260929T193427926800Z"
+    },
+    {
+      "date": "2026-09-29",
+      "summary": "Automatic project kickoff, local skill routing, and proportional workflow selection",
+      "source_backup": "backups/sources-startup-20260929T201811417162Z"
+    }
+  ]
+}

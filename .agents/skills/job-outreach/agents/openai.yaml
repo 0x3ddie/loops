@@ -1,0 +1,4 @@
+interface:
+  display_name: "Job Outreach"
+  short_description: "Write specific, conversational hiring messages"
+  default_prompt: "Use $job-outreach to draft a message for this role using my verified experience."

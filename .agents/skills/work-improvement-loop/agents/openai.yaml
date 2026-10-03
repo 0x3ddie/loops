@@ -1,0 +1,4 @@
+interface:
+  display_name: "Improvement Loop"
+  short_description: "Measure, review, release, and retain real gains"
+  default_prompt: "Use $work-improvement-loop to improve one measured bottleneck and preserve the evidence for every decision."

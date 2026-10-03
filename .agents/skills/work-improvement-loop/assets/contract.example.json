@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "objective": "EXAMPLE ONLY: reduce p95 search latency while preserving result correctness",
+  "scope": "EXAMPLE ONLY: src/search.py; evaluator and fixtures stay fixed",
+  "metric": {"name": "search_p95", "unit": "ms", "direction": "lower", "minimum_gain": 10},
+  "context": "EXAMPLE ONLY: fixed workload v1 on the same machine",
+  "minimum_samples": 5,
+  "required_checks": ["correctness", "regressions", "cost_budget"],
+  "protected_files": ["bench/search.py", "tests/test_search.py", "bench/fixtures.json"],
+  "maximum_candidates": 5,
+  "deadline_utc": "REPLACE_WITH_AN_EXPLICIT_UTC_DEADLINE",
+  "release": {
+    "mode": "flagged",
+    "flag": "EXAMPLE_ONLY_search_candidate",
+    "field_context": "EXAMPLE ONLY: predefined cohorts and observation windows",
+    "maximum_observations": 3,
+    "rollback": "EXAMPLE ONLY: disable the flag, verify control behavior and telemetry recovery"
+  },
+  "regression_limit": {"current": 300, "margin": 10}
+}

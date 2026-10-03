@@ -1,0 +1,4 @@
+interface:
+  display_name: "Work Harness Maintenance"
+  short_description: "Audit and synchronize personal agent guidance"
+  default_prompt: "Use $work-harness-maintenance to audit my instructions, skill versions, and application copies."
